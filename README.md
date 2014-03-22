@@ -2,7 +2,6 @@
 
 Super simple database document for Wordpress
 
-    <?php
     class Something extends \om\WpDocument {
       public $propertyone = true;
       /** @var bool */
@@ -16,7 +15,6 @@ Super simple database document for Wordpress
 
 Simplify from id creation and save updates
 
-    <?php
     $something = Something::fromId(1);
     $something->propertyone = fasle;
     $something->propertytwo = 'add something';
