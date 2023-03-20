@@ -2,7 +2,7 @@
 namespace om;
 
 /**
- * @author Roman Ozana <ozana@omdesign.cz>
+ * @author Roman Ozana <roman@ozana.cz>
  */
 abstract class WpDocument extends \stdClass {
 
